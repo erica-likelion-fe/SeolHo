@@ -1,0 +1,75 @@
+body {
+    margin:0;
+    font-family:sans-serif;
+}
+
+h1.title {
+    display:flex;
+    margin:10px;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+h4 {
+    display: flex;
+    margin:10px;
+    font-size:1rem;
+    justify-content: center;
+}
+
+.login-form {
+    margin:10px;
+    padding:10px;
+    width:400px;
+    height:500px;
+    background-color: rgb(187, 229, 237);
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    font-size:0.8rem;
+}
+
+.input-box {
+    width:100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+textarea {
+    display: inline-block;
+    width: 90%;
+}
+
+.hobby-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+.btn {
+    display: flex;
+    height: 80px;
+    justify-content:center;
+    gap: 10px;
+}
+
+.btn input {
+    padding: 10px 20px;
+    font-size: 16px;
+    height:50px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn input:hover {
+    background-color: #0056b3;
+}
