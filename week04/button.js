@@ -1,4 +1,4 @@
-// 요소 선택택
+// 요소 선택
 const countDisplay = document.getElementById("count");
 const increaseBtn = document.getElementById("increase");
 const decreaseBtn = document.getElementById("decrease");

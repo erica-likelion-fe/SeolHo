@@ -1,4 +1,4 @@
-// css의 .food 선택자를 갖고 있는 요소들을 배열 형태로로 불러온다.
+// css의 .food 선택자를 갖고 있는 요소들을 배열 형태로 불러온다.
 const foodBtn = document.querySelectorAll(".food");
 const submitBtn = document.querySelector(".submit");
 
