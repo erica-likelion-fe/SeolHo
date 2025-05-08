@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .guess-game {
+            width : 300px;
+        }
+        .input-box {
+            width : 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="guess-game">
+        <h1>숫자 맞추기 게임</h1>
+        <h3>1부터 100 사이의 숫자를 맞춰보세요!</h3>
+        <input class="input-box" type="number" id="guess" min="1" max="100" placeholder="숫자 입력">
+        <input type="submit" id="confirm" value="확인">
+        <p id="chance">남은 기회 : 10</p>
+        <p id="hint"></p>
+    </div>
+    
+    <script src="guessnum.js"></script>
+</body>
+</html>
